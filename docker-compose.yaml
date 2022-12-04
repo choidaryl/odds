@@ -8,5 +8,4 @@ services:
       - .:/code
     environment:
       FLASK_DEBUG: True
-  redis:
-    image: "redis:alpine"
+      
